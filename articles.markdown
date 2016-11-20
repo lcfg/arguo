@@ -1,6 +1,9 @@
 ---
 title: Articles
 date: 2016-11-20 00:15:00 Z
+permalink: "/articles"
+links: 
+notes: 
 ---
 
 ## Articles
