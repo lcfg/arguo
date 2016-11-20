@@ -6,8 +6,8 @@ links:
 notes: 
 ---
 
-## Articles
+# Articles
 
-# November
+## November
 
-[Ten Ways your Data Project is Going to Fail](http://www.martingoodson.com/ten-ways-your-data-project-is-going-to-fail/) by [Martin Goodson](http://www.martingoodson.com/author/martin/)
+[Ten Ways your Data Project is Going to Fail](http://www.martingoodson.com/ten-ways-your-data-project-is-going-to-fail/) by [Martin Goodson](http://www.martingoodson.com/author/martin/). [Notes](/notes/nov/goodson).
