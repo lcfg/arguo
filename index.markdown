@@ -6,4 +6,6 @@ permalink: "/"
 
 Welcome.
 
-{{ site.posts }}
+{% for page in site.pages %}
+  {{ page }}
+{% endfor %}
