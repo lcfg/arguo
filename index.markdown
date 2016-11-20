@@ -7,5 +7,5 @@ permalink: "/"
 Welcome.
 
 {% for page in site.pages %}
-  {{ page }}
+  {{ page.title }}
 {% endfor %}
