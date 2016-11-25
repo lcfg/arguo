@@ -5,7 +5,7 @@ permalink: "/"
 Field name: 
 ---
 
-**Arguo.** Written and maintained by L. Greven.
+**Arguō.** Written and maintained by L. Greven.
 
 {% for page in site.notes %}
   [{{ page.title }}]({{ page.url }}) published on {{ page.date | date: '%B %d, %Y' }}
