@@ -8,5 +8,5 @@ Field name:
 **Arguō.** Written and maintained by L. Greven.
 
 {% for page in site.notes %}
-  [{{ page.title }}]({{ page.url }}) published on {{ page.date | date: '%B %d, %Y' }}
+  [{{ page.title }}]({{ /articles }}) published on {{ page.date | date: '%B %d, %Y' }}
 {% endfor %}
