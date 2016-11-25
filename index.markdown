@@ -8,5 +8,5 @@ Field name:
 Welcome.
 
 {% for page in site.notes %}
-  [{{ page.title }}]({{ page.url }}) published on {{ page.date }}
+  [{{ page.title }}]({{ page.url }}) published on {{ page.date | date: '%B %d, %Y' }}
 {% endfor %}
