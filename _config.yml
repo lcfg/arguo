@@ -25,5 +25,5 @@ defaults:
     layout: page
 permalink: pretty
 sass:
-  sass_dir: css
+  Key: 
   style: compressed
