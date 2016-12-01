@@ -8,7 +8,7 @@ Field name:
 <LINK href="{{site.url}}/css/default.css" rel="stylesheet" type="text/css">
 
 # Arguō
-## Written and maintained by L. Greven.
+## Maintained by Laurens.
 
 **Recent links**
 {% for page in site.notes %}
