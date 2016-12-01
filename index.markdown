@@ -8,13 +8,12 @@ Field name:
 <LINK href="{{site.url}}/css/default.css" rel="stylesheet" type="text/css">
 
 # Arguō
-
-### Maintained by Laurens.
+Maintained by Laurens.
 
 Recent links
-\(last update {{ page.date | date: '%B %d, %Y' }})
+last update {{ page.date | date: '%B %d, %Y' }}
 
 {% for page in site.notes %}
 \[{{ page.title }}\]({{ site.url }}/articles) -
-tagged with: {% for tag in page.categories %}{{ *tag* }}, {% endfor %}
+tagged with: {% for tag in page.categories %}{{ tag }}, {% endfor %}
 {% endfor %}
