@@ -18,5 +18,5 @@ Last update: {{ page.date | date: '%B %d, %Y' }}
 **Recent images**
 {% for page in site.images %}
 
-[{{ page.title }}]({{ site.url }}/images) - [image link](page.url), tags: {% for tag in page.categories %}{{ tag }} {% endfor %}
+[{{ page.title }}]({{ page.url }}) - [image link](page.image), tags: {% for tag in page.categories %}{{ tag }} {% endfor %}
 {% endfor %}
