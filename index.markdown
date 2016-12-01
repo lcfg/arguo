@@ -11,8 +11,9 @@ Field name:
 Arguō
 Maintained by Laurens.
 
-Recent links
-last update {{ page.date | date: '%B %d, %Y' }}
+<div class="collection">
+<a href="#!" class="collection-item"><span class="badge">{{ page.date | date: '%B %d, %Y' }}</span>Last update</a>
+</div>
 
 {% for page in site.notes %}
 [{{ page.title }}]({{ site.url }}/articles) -
