@@ -9,7 +9,8 @@ Arguō
 -----
 
 Maintained by Laurens.
-----------------------
+Last update: {{ site.date | date: '%B %d, %Y' }}
+
 {% for page in site.notes %}
 [{{ page.title }}]({{ site.url }}/articles) -
 tagged with: {% for tag in page.categories %}{{ tag }}, {% endfor %}
