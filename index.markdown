@@ -7,7 +7,8 @@ Field name:
 
 <LINK href="{{site.url}}/css/_typeplate-index.css" rel="stylesheet" type="text/css">
 
-**Arguō.** Written and maintained by L. Greven.
+# Arguō
+### Written and maintained by L. Greven.
 
 
 
