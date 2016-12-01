@@ -9,7 +9,7 @@ Field name:
 
 # Arguō
 
-## Maintained by Laurens.
+### Maintained by Laurens.
 
 **Recent links**
 {% for page in site.notes %}
