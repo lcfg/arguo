@@ -6,10 +6,9 @@ Field name:
 ---
 
 <LINK href="{{site.url}}/css/materialize.min.css" rel="stylesheet" type="text/css">
+<div class="container">
 
-<SPAN class="container">
-
-# Arguō
+Arguō
 Maintained by Laurens.
 
 Recent links
@@ -20,4 +19,4 @@ last update {{ page.date | date: '%B %d, %Y' }}
 tagged with: {% for tag in page.categories %}{{ tag }}, {% endfor %}
 {% endfor %}
 
-</SPAN>
+</div>
