@@ -16,5 +16,5 @@ Recent links
 
 {% for page in site.notes %}
 \[{{ page.title }}\]({{ site.url }}/articles) -
-tagged with: {% for tag in page.categories %}{{ *tag* }}, {% endfor %}
+tagged with: {% for tag in page.categories %}{{ tag }}, {% endfor %}
 {% endfor %}
