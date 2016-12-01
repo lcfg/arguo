@@ -9,9 +9,12 @@ Field name:
 
 # Arguō
 
-### Maintained by Laurens.
+#### Maintained by Laurens.
 
-**Recent links** (last update {{ page.date | date: '%B %d, %Y' }})
+### Recent links 
+
+#### (last update {{ page.date | date: '%B %d, %Y' }})
 {% for page in site.notes %} 
-  [{{ page.title }}]({{ site.url }}/articles) tags: {% for tag in page.tags %} {{ page.tag }} {% endfor %}
+  [{{ page.title }}]({{ site.url }}/articles)
+*Tagged with: {% for tag in page.tags %}{{ page.tag }}, {% endfor %}*
 {% endfor %}
