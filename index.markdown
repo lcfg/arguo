@@ -6,7 +6,7 @@ Field name:
 ---
 
 <LINK href="{{site.url}}/css/materialize.min.css" rel="stylesheet" type="text/css">
-
+<div class="container">
 # Arguō
 Maintained by Laurens.
 
@@ -17,3 +17,4 @@ last update {{ page.date | date: '%B %d, %Y' }}
 [{{ page.title }}]({{ site.url }}/articles) -
 tagged with: {% for tag in page.categories %}{{ tag }}, {% endfor %}
 {% endfor %}
+</div>
