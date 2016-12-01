@@ -10,8 +10,7 @@ Field name:
 # Arguō
 ### Written and maintained by L. Greven.
 
-
-
+**Recent articles**
 {% for page in site.notes %}
   [{{ page.title }}]({{ site.url }}/articles) published on {{ page.date | date: '%B %d, %Y' }}
 {% endfor %}
