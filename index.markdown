@@ -11,8 +11,7 @@ Field name:
 
 #### Maintained by Laurens.
 
-## Recent links 
-(last update {{ page.date | date: '%B %d, %Y' }})
+## Recent links ## (last update {{ page.date | date: '%B %d, %Y' }})
 
 {% for page in site.notes %} 
   [{{ page.title }}]({{ site.url }}/articles) - 
