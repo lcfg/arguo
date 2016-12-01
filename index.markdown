@@ -8,10 +8,11 @@ Field name:
 Arguō
 -----
 
-Maintained by Laurens.
+|Maintained by Laurens.|
+------------------------
 Last update: {{ page.date | date: '%B %d, %Y' }}
 
-# Recent links
+Recent links
 {% for page in site.notes %}
 ## [{{ page.title }}]({{ site.url }}/articles) -
 tagged with: {% for tag in page.categories %}{{ tag }}, {% endfor %}
