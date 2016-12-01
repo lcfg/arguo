@@ -15,6 +15,6 @@ Field name:
 (last update {{ page.date | date: '%B %d, %Y' }})
 
 {% for page in site.notes %} 
-  [{{ page.title }}]({{ site.url }}/articles)
-Tagged with: {% for tag in page.categories %}{{ tag }}, {% endfor %}
+  [{{ page.title }}]({{ site.url }}/articles) - 
+tagged with: {% for tag in page.categories %}{{ tag }}, {% endfor %}
 {% endfor %}
