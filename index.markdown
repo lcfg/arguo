@@ -14,7 +14,7 @@ Last update: {{ page.date | date: '%B %d, %Y' }}
 **Recent links**
 {% for page in site.notes %}
 
-## \[{{ page.title }}\]({{ site.url }}/articles) -
+[{{ page.title }}]({{ site.url }}/articles) -
 
 tagged with: {% for tag in page.categories %}{{ tag }}, {% endfor %}
 {% endfor %}
