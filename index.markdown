@@ -9,7 +9,7 @@ Arguō
 -----
 
 Maintained by Laurens.
-Last update: {{ site.date | date: '%B %d, %Y' }}
+Last update: {{ page.date | date: '%B %d, %Y' }}
 
 {% for page in site.notes %}
 [{{ page.title }}]({{ site.url }}/articles) -
