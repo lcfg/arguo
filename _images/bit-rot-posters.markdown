@@ -1,6 +1,14 @@
 ---
 title: Bit Rot Posters
 date: 2016-12-01 23:41:00 Z
+categories:
+- art
+tags:
+- douglas
+- coupland
+- witte de with
+- exhibition
+- meme
 image: https://www.vn.nl/wp-content/uploads/sites/3/2015/10/27_Douglas-Coupland_Slogans-for-the-21st-Century_preview.jpg
 ---
 
