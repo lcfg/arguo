@@ -19,5 +19,6 @@ A rundown of ten causes "data projects", loosely defined as projects in which ra
 
 **Key takeaways**: define a clear goal before starting data projects, battle-hardened data is preferred, scientific methods are *required* and never use "fantasy data", even for mock-ups.
 
-
+<center>
 ![xkcd Tall Infographics](http://imgs.xkcd.com/comics/tall_infographics.png)
+</center>
