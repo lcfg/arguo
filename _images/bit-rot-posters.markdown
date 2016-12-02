@@ -7,3 +7,5 @@ image: https://www.vn.nl/wp-content/uploads/sites/3/2015/10/27_Douglas-Coupland_
 # I miss doing nothing
 
 A [postered wall]({{page.image}}) with our era on display. A memetic creation by Douglas Coupland, part of the Bit Rot exhibition at [Witte de With](http://www.wdw.nl/en/), Rotterdam.
+
+<img src="{{page.image}}" style="width:400px; height: auto;">Bit Rot Posters by Douglas Coupland</img>
