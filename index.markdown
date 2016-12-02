@@ -7,7 +7,6 @@ Field name:
 
 ## Arguō
 Maintained by Laurens.
-Last update: {{ page.date | date: '%B %d, %Y' }}
 
 **Recent links**
 {% for page in site.notes %}
